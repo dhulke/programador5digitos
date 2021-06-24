@@ -1,0 +1,20 @@
+.caixa {
+    display: inline-block;
+    border: 5px solid black;
+    width: 250px;
+}
+
+#disjuntor {
+    width: 250px;
+    height: auto;
+}
+
+#interruptor {
+    width: 250px;
+    height: auto;
+}
+
+#lampada {
+    width: 250px;
+    height: auto;
+}

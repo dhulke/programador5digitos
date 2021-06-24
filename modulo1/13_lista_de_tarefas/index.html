@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro de Convidados Simples</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <form id="formulario_inserir">
+        <fieldset>
+            <legend>Inserir Tarefas</legend>
+            <label for="tarefa">Tarefa: </label><input type="text" id="tarefa">
+            <input type="submit" id="inserir" value="Inserir no Fim">
+            <input type="button" id="inserir_comeco" value="Inserir no Começo">
+        </fieldset>
+    </form>
+        <br>
+    <form id="formulario_remover">
+        <fieldset>
+            <legend>Remover Tarefas</legend>
+            <label for="indice">Índice: </label><input type="text" id="indice">
+            <input type="submit" id="remover" value="Remover">
+            <br>
+            <input type="button" id="remover_comeco" value="Remover do Começo">
+            <input type="button" id="remover_fim" value="Remover do Fim">
+        </fieldset>
+    </form>
+    
+    <div id="box_lista_tarefas">
+        <h2>Lista de Tarefas</h2>
+        <div id="tarefas"></div>
+    </div>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+.convidado {
+    width: 400px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#formulario {
+    margin-bottom: 20px;
+}

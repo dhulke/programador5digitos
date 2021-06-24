@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+fieldset {
+    width: 600px;
+}
+
+#usuarios_cadastrados {
+    width: 600px;
+    border: 2px solid black;
+    margin-top: 50px;
+}
+
+#usuarios_cadastrados caption {
+    font-size: 24px;
+}
+
+#acao {
+    width: 50px;
+}

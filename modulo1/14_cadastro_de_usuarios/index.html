@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro de Usuários</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <form id="formulario">
+        <fieldset>
+            <legend>Cadastro de Usuário</legend>
+            <label for="nome">Nome: </label><input type="text" id="nome">
+            <label for="nome">E-mail: </label><input type="text" id="email">
+            <input type="submit" id="cadastrar" value="Cadastrar">
+        </fieldset>
+    </form>
+    
+    <table id="usuarios_cadastrados">
+        <caption>Usuários Cadastrados</caption>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th id="acao">Ação</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th><input type="button" value="Remover Tudo" onclick="removerTudo()"></th>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

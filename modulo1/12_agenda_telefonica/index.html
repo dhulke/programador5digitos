@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro de Convidados Simples</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <form id="formulario_cadastro">
+        <label for="nome">Nome: </label><input type="text" id="nome">
+        <label for="nome">Telefone: </label><input type="text" id="telefone">
+        <input type="submit" id="cadastrar" value="Cadastrar">
+    </form>
+        <br>
+    <form id="formulario_pesquisa">
+        <label for="termo">Termo: </label><input type="text" id="termo">
+        <input type="submit" id="pesquisar" value="Pesquisar">
+    </form>
+    
+    <div id="box_lista_contatos">
+        <h2>Lista de Contatos</h2>
+        <div id="contatos"></div>
+    </div>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

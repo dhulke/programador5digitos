@@ -1,0 +1,18 @@
+.contato {
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#formulario_pesquisa {
+    margin-bottom: 20px;
+}
+
+#box_lista_contatos {
+    border: 2px solid black;
+    width: 500px;
+}
+
+#box_lista_contatos h2 {
+    text-align: center;
+}
