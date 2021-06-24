@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+fieldset {
+    width: 300px;
+}
+
+td {
+    text-align: center;
+}
+
+#texto_verde {
+    color: #00ff00;
+}
+
+.texto_azul {
+    color: #0000ff;
+}
+
+#palavra_vermelha {
+    color: #ff0000;
+}
+
+#quadrado {
+    width: 150px;
+    height: 150px;
+    background-color: #cccccc;
+}
