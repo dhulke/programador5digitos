@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+#pontuacao {
+    font-size: 24px;
+}
+
+#genius {
+    margin-top: 10px;
+}
+
+#genius caption {
+    font-size: 24px;
+}
+
+td {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#verde {
+    background-color: rgb(47, 97, 0);
+}
+
+#verde:hover {
+    background-color: rgb(62, 129, 0);
+}
+
+#verde:active, #verde.ativo {
+    background-color: rgb(123, 255, 0);
+}
+
+#vermelho {
+    background-color: rgb(97, 0, 0);
+}
+
+#vermelho:hover {
+    background-color: rgb(133, 0, 0);
+}
+
+#vermelho:active, #vermelho.ativo {
+    background-color: rgb(255, 0, 0);
+}
+
+#amarelo {
+    background-color: rgb(97, 74, 0);
+}
+
+#amarelo:hover {
+    background-color: rgb(136, 104, 0);
+}
+
+#amarelo:active, #amarelo.ativo {
+    background-color: rgb(255, 196, 0);
+}
+
+#azul {
+    background-color: rgb(18, 0, 97);
+}
+
+#azul:hover {
+    background-color: rgb(27, 0, 146);
+}
+
+#azul:active, #azul.ativo {
+    background-color: rgb(47, 0, 255);
+}
