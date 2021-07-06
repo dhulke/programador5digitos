@@ -38,12 +38,12 @@ function mostraMemoria() {
     for(let i = 0; i < memoria.length; i++) {
         setTimeout(function() {
             mostraCor(memoria[i]);
+
+            if(i + 1 == memoria.length) {
+                mudaEstado(ESPERANDO);
+            }
         }, i * 1100);
     }
-
-    setTimeout(function() {
-        mudaEstado(ESPERANDO);
-    }, memoria.length * 1100)
 }
 
 function mudaEstado(novoEstado) {
@@ -97,9 +97,7 @@ azul.addEventListener("click", function() {
 });
 
 function clicaCor(cor) {
-    if(estado == MOSTRANDO) {
-        return;
-    } else if(estado == ESPERANDO) {
+    if(estado == ESPERANDO) {
         tentativas.push(cor);
         const comparacao = comparaTentativas();
         if(!comparacao) {
